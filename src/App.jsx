@@ -78,7 +78,6 @@ export default function App() {
     <div className="container">
       <div className="header">
         <h1>AI Cover Letter Generator</h1>
-        <p>Phase 1, 2 & 3 Completed</p>
       </div>
       
       <div className="card">
