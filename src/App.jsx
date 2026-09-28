@@ -57,7 +57,7 @@ export default function App() {
       setOutput(result.response.text());
     } catch (error) {
       console.error(error);
-      setOutput("Error generating cover letter. Please check your API Key.");
+      setOutput("Error details: " + (error.message || error.toString()));
     } finally {
       setIsGenerating(false);
     }
